@@ -1,0 +1,47 @@
+version: '3'
+
+services:
+  bastion:
+    build:
+      dockerfile: Dockerfile
+      context: .
+  server1:
+    build:
+      dockerfile: Dockerfile
+      context: .
+  server2:
+    build:
+      dockerfile: Dockerfile
+      context: .
+  server3:
+    build:
+      dockerfile: Dockerfile
+      context: .
+  server4:
+    build:
+      dockerfile: Dockerfile
+      context: .
+  server5:
+    build:
+      dockerfile: Dockerfile
+      context: .
+  server6:
+    build:
+      dockerfile: Dockerfile
+      context: .
+  server7:
+    build:
+      dockerfile: Dockerfile
+      context: .
+  server8:
+    build:
+      dockerfile: Dockerfile
+      context: .
+  server9:
+    build:
+      dockerfile: Dockerfile
+      context: .
+  server10:
+    build:
+      dockerfile: Dockerfile
+      context: .
